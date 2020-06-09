@@ -1,1 +1,0 @@
-# Aequivalente von Kalzium
