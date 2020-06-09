@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcium Equivalent</title>
+    <link href="calcium.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+   
+<div id="centerCol"> 
+   
+      <h1>Calcium Equivalents</h1>
+      
+      <p>Calcium can be measured using various units<br>
+        Amount of the calcium salt (mg)<br>Specified concentration in millilitres (ml) <br>
+        Amount of elemental calcium in milligrams (mg) <br>Milliequivalents 
+        (mEq) <br>Millimoles (mmol) <br></p>
+      <p>Enter just one numeric value in a cell, click the "Calculate" button <br>
+        next to it to calculate ALL conversion units at the same time</p>
+
+      <form name="calciumFormula">
+        <div align="center"> 
+          <table cellspacing="1" cellpadding="1" border="0">
+              <td>Elemental Ca (mg)</td>
+              <td> 
+                <input type="text" size="5" name="Elemental">
+              </td>
+              <td> 
+                <input type="button" id ="button" name="CalcFromElem" value="Calculate" onclick="CalcElem(this.form)">
+              </td>
+            </tr>
+            <tr> 
+              <td>Elemental Ca (mEq) </td>
+              <td> 
+                <input type="text" size="5" name="mEq">
+              </td>
+              <td> 
+                <input type="button" id ="button" name="CalcFromMEq" value="Calculate" onclick="CalcMEq(this.form)">
+              </td>
+            </tr>
+            <tr> 
+              <td>Elemental Ca (mmol) </td>
+              <td> 
+                <input type="text" size="5" name="mmol">
+              </td>
+              <td> 
+                <input type="button" id ="button" name="CalcFromMmol" value="Calculate" onclick="CalcMmol(this.form)">
+              </td>
+            </tr>
+            <tr> 
+              <td>CaChloride (g)</td>
+              <td> 
+                <input type="text" size="5" name="CaCl">
+              </td>
+              <td> 
+                <input type="button" id ="button" name="CalcFromCl" value="Calculate" onclick="CalcCaCl(this.form)">
+              </td>
+            </tr>
+            <tr> 
+              <td>CaChloride 10% (ml) </td>
+              <td> 
+                <input type="text" size="5" name="CaClVol">
+              </td>
+              <td> 
+                <input type="button" id ="button" name="CalcFromClVol" value="Calculate" onclick="CalcCaClVol(this.form)">
+              </td>
+            </tr>
+            <tr> 
+              <td>CaGluconate (g)</td>
+              <td> 
+                <input type="text" size="5" name="CaGlu">
+              </td>
+              <td> 
+                <input type="button" id ="button" name="CalcFromGlu" value="Calculate" onclick="CalcCaGlu(this.form)">
+              </td>
+            </tr>
+            <tr> 
+              <td>CaGluconate 10% (ml)&nbsp;</td>
+              <td> 
+                <input type="text" size="5" name="CaGluVol">
+              </td>
+              <td> 
+                <input type="button" id ="button" name="CalcFromGluVol" value="Calculate" onclick="CalcCaGluVol(this.form)">
+              </td>
+            </tr>
+            <tr> 
+              <td>CaCarbonate (g) </td>
+              <td> 
+                <input type="text" size="5" name="CaCarb">
+              </td>
+              <td> 
+                <input type="button" id ="button" name="CalcFromCarb" value="Calculate" onclick="CalcCaCarb(this.form)">
+              </td>
+            </tr>
+            <tr> 
+            <tr> 
+              <td colspan="4">&nbsp;</td>
+            </tr>
+            <tr> 
+              <td colspan="3" align="center"> 
+                <input type="reset" id="clear" name="Clear" value="Clear">
+              </td>
+            </tr>
+          </table>
+        </div>
+      </form>
+      <p>&nbsp;</p>
+     
+      <p>&nbsp;</p>
+      <!-- #EndEditable -->
+      <p> <i>Created:</i> <!-- #BeginEditable "CreateDate" -->June 
+      6, 2020<!-- #EndEditable --><br>
+      </p>
+    </div>
+    <script src='calcium.js'></script>
+</body>
+</html>
