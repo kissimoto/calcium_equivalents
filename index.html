@@ -19,16 +19,16 @@
           <table cellspacing="1" cellpadding="1" border="0">
               <td>Elemental Ca (mg)</td>
               <td> 
-                <input type="text" size="5" name="Elemental">
+                <input type="text" size="5" placeholder="mg" name="Elemental">
               </td>
               <td> 
-                <input type="button" id ="button" name="CalcFromElem" value="Calculate" onclick="CalcElem(this.form)">
+                <input type="button" id ="button" name="CalcFromElem"  value="Calculate" onclick="CalcElem(this.form)">
               </td>
             </tr>
             <tr> 
               <td>Elemental Ca (mEq) </td>
               <td> 
-                <input type="text" size="5" name="mEq">
+                <input type="text" size="5" placeholder="mEq" name="mEq">
               </td>
               <td> 
                 <input type="button" id ="button" name="CalcFromMEq" value="Calculate" onclick="CalcMEq(this.form)">
@@ -37,7 +37,7 @@
             <tr> 
               <td>Elemental Ca (mmol) </td>
               <td> 
-                <input type="text" size="5" name="mmol">
+                <input type="text" size="5" placeholder="mmol" name="mmol">
               </td>
               <td> 
                 <input type="button" id ="button" name="CalcFromMmol" value="Calculate" onclick="CalcMmol(this.form)">
@@ -46,7 +46,7 @@
             <tr> 
               <td>CaChloride (g)</td>
               <td> 
-                <input type="text" size="5" name="CaCl">
+                <input type="text" size="5" placeholder="g" name="CaCl">
               </td>
               <td> 
                 <input type="button" id ="button" name="CalcFromCl" value="Calculate" onclick="CalcCaCl(this.form)">
@@ -55,7 +55,7 @@
             <tr> 
               <td>CaChloride 10% (ml) </td>
               <td> 
-                <input type="text" size="5" name="CaClVol">
+                <input type="text" size="5" placeholder="ml" name="CaClVol">
               </td>
               <td> 
                 <input type="button" id ="button" name="CalcFromClVol" value="Calculate" onclick="CalcCaClVol(this.form)">
@@ -64,7 +64,7 @@
             <tr> 
               <td>CaGluconate (g)</td>
               <td> 
-                <input type="text" size="5" name="CaGlu">
+                <input type="text" size="5" placeholder="g" name="CaGlu">
               </td>
               <td> 
                 <input type="button" id ="button" name="CalcFromGlu" value="Calculate" onclick="CalcCaGlu(this.form)">
@@ -73,7 +73,7 @@
             <tr> 
               <td>CaGluconate 10% (ml)&nbsp;</td>
               <td> 
-                <input type="text" size="5" name="CaGluVol">
+                <input type="text" size="5" placeholder="ml" name="CaGluVol">
               </td>
               <td> 
                 <input type="button" id ="button" name="CalcFromGluVol" value="Calculate" onclick="CalcCaGluVol(this.form)">
@@ -82,7 +82,7 @@
             <tr> 
               <td>CaCarbonate (g) </td>
               <td> 
-                <input type="text" size="5" name="CaCarb">
+                <input type="text" size="5" placeholder="g" name="CaCarb">
               </td>
               <td> 
                 <input type="button" id ="button" name="CalcFromCarb" value="Calculate" onclick="CalcCaCarb(this.form)">
@@ -93,7 +93,7 @@
               <td colspan="4">&nbsp;</td>
             </tr>
             <tr> 
-              <td colspan="3" align="center"> 
+              <td colspan="4" align="center"> 
                 <input type="reset" id="clear" name="Clear" value="Clear">
               </td>
             </tr>
@@ -101,6 +101,6 @@
         </div>
       </form>
       <p>&nbsp;</p>
-    <script src='calcium.js'></script>
+    <script src='calciumEquivTest.js'></script>
 </body>
 </html>
